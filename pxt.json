@@ -1,16 +1,15 @@
 {
     "name": "pxt-bp",
     "version": "0.0.0",
-    "description": "",
+    "description": "This is a repository of all the MakeCode extensions made by BPLab.",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "lcd.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -23,5 +22,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
